@@ -14,12 +14,15 @@ To use SQL queries to extract and analyze structured data from a database using 
 
 ## 📂 Project Structure
 
-Task-3-SQL/
-│
-├── ecommerce_queries.sql # All SQL queries
-├── run_sqlite.py # Python script to execute SQL
-├── ecommerce.db # SQLite database file
-└── screenshots/ # Output screenshots
+Task-3-SQL
+
+1.ecommerce_queries.sql # All SQL queries
+
+2.run_sqlite.py # Python script to execute SQL
+
+3.ecommerce.db # SQLite database file
+
+4.screenshots/ # Output screenshots
 
 ---
 
@@ -105,4 +108,5 @@ Demonstrated understanding of joins, aggregation, subqueries, views, and indexin
 
 
 Jayanth B
+
 
