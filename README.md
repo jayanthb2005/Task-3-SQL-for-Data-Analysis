@@ -1,17 +1,14 @@
-🗄️ Task 3 – SQL for Data Analysis
-📌 Objective
+🗄️ Task 3 – SQL for Data Analysis:
 
+📌 Objective:
 To use SQL queries to extract and analyze structured data from a database using SQLite.
 
-🛠 Tools Used
-
-SQLite
-
-Python (sqlite3 module)
-
+🛠 Tools Used:
+SQLite,
+Python (sqlite3 module),
 VS Code
 
-📂 Project Structure
+📂 Project Structure:
 Task-3-SQL/
 │
 ├── ecommerce_queries.sql     # All SQL queries
@@ -19,34 +16,28 @@ Task-3-SQL/
 ├── ecommerce.db              # SQLite database file
 └── screenshots/              # Output screenshots
 
-🧱 Database Design
+🧱 Database Design:
 Tables Created:
-
-customers
-
-products
-
-orders
-
+customers,
+products,
+orders,
 Relationships:
-
 orders.customer_id → references customers.customer_id
-
 orders.product_id → references products.product_id
 
-🧾 SQL Concepts Implemented
+🧾 SQL Concepts Implemented:
 
-✔ SELECT
-✔ WHERE
-✔ ORDER BY
-✔ GROUP BY
-✔ Aggregate Functions (SUM)
-✔ INNER JOIN
-✔ Subquery
-✔ CREATE VIEW
+✔ SELECT,
+✔ WHERE,
+✔ ORDER BY,
+✔ GROUP BY,
+✔ Aggregate Functions (SUM),
+✔ INNER JOIN,
+✔ Subquery,
+✔ CREATE VIEW,
 ✔ CREATE INDEX
 
-🔍 Queries Performed
+🔍 Queries Performed:
 1️⃣ SELECT with WHERE
 SELECT * FROM customers
 WHERE country = 'India';
@@ -87,16 +78,12 @@ HAVING total_spent > 30000;
 CREATE INDEX idx_customer_id
 ON orders(customer_id);
 
-📊 Output
-
-Screenshots of executed queries and results are included in the screenshots folder.
+📊 Output:
+Screenshots of executed queries and results.
 
 🎯 Outcome
-
-Successfully created a relational database using SQLite
-
-Executed multiple SQL queries for data analysis
-
+Successfully created a relational database using SQLite,
+Executed multiple SQL queries for data analysis,
 Demonstrated understanding of joins, aggregation, subqueries, views, and indexing
 
 👨‍💻 Author
