@@ -91,15 +91,18 @@ HAVING total_spent > 30000;
 CREATE INDEX idx_customer_id
 ON orders(customer_id);
 ```
-📊 Output
+
+
+📊 Output:
 Screenshots of executed queries and results
 
-🎯 Outcome
-Successfully created a relational database using SQLite
-Executed multiple SQL queries for data analysis
-Demonstrated understanding of joins, aggregation, subqueries, views, and indexing
+🎯 Outcome:
+Successfully created a relational database using SQLite,
+Executed multiple SQL queries for data analysis,
+Demonstrated understanding of joins, aggregation, subqueries, views, and indexing.
 
 👨‍💻 Author
 
 
 Jayanth B
+
